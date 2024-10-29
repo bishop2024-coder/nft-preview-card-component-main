@@ -1,0 +1,57 @@
+body {
+  background-color: hsl(217, 54%, 11%);
+  color: white;
+  font-family: "Outfit", sans-serif;
+  font-size: 16px;
+}
+.card {
+  position: relative;
+  top: 90px;
+  width: 280px;
+  height: 500px;
+  margin: auto;
+  border-radius: 20px;
+  background-color: hsl(216, 50%, 16%);
+  box-shadow: hsla(216, 86%, 8%, 0.977) 0px 10px 20px;
+  padding: 20px;
+}
+p{font-weight:200 ;}
+.equilibrum {
+  width: 100%;
+}
+.detail {
+  position: relative;
+  width: 100%;
+  height: 25%;
+}
+.days,
+.price {
+  position: absolute;
+  top: 80px;
+}
+.days {
+  right: 0;
+  color: hsl(215, 51%, 70%);
+}
+i {
+  padding-right: 10px;
+}
+.price {
+  color: hsl(178, 100%, 50%);
+}
+.image {
+  width: 27px;
+  border: 1px solid white;
+  border-radius: 30px;
+}
+.note {
+  position: relative;
+  height: 10%;
+  margin-top: 20px;
+}
+.text {
+  position: absolute;
+  left: 40px;
+  bottom: 8px;
+}
+hr{margin-top: 16px;}
